@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "clone": {
-      "version": "2.0.0",
-      "resolved": "https://registry.npmjs.org/clone/-/clone-2.0.0.tgz",
-      "from": "clone@>=2.0.0 <2.1.0"
+      "version": "2.1.1",
+      "resolved": "https://registry.npmjs.org/clone/-/clone-2.1.1.tgz",
+      "from": "clone@>=2.1.1 <2.2.0"
     },
     "deep-equal": {
       "version": "1.0.1",
@@ -11,14 +11,14 @@
       "from": "deep-equal@>=1.0.1 <1.1.0"
     },
     "eventemitter3": {
-      "version": "2.0.2",
-      "resolved": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-2.0.2.tgz",
-      "from": "eventemitter3@>=2.0.1 <2.1.0"
+      "version": "2.0.3",
+      "resolved": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-2.0.3.tgz",
+      "from": "eventemitter3@>=2.0.3 <2.1.0"
     },
     "extend": {
-      "version": "3.0.0",
-      "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.0.tgz",
-      "from": "extend@>=3.0.0 <3.1.0"
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.1.tgz",
+      "from": "extend@>=3.0.1 <3.1.0"
     },
     "fast-diff": {
       "version": "1.1.1",
@@ -26,19 +26,19 @@
       "from": "fast-diff@1.1.1"
     },
     "parchment": {
-      "version": "1.0.2",
-      "resolved": "https://registry.npmjs.org/parchment/-/parchment-1.0.2.tgz",
-      "from": "parchment@1.0.2"
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/parchment/-/parchment-1.1.0.tgz",
+      "from": "parchment@1.1.0"
     },
     "quill": {
-      "version": "1.1.3",
-      "resolved": "https://registry.npmjs.org/quill/-/quill-1.1.3.tgz",
-      "from": "quill@1.1.3"
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/quill/-/quill-1.3.0.tgz",
+      "from": "quill@1.3.0"
     },
     "quill-delta": {
-      "version": "3.4.2",
-      "resolved": "https://registry.npmjs.org/quill-delta/-/quill-delta-3.4.2.tgz",
-      "from": "quill-delta@3.4.2"
+      "version": "3.5.0",
+      "resolved": "https://registry.npmjs.org/quill-delta/-/quill-delta-3.5.0.tgz",
+      "from": "quill-delta@3.5.0"
     }
   }
 }
