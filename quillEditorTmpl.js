@@ -34,6 +34,15 @@ Template.quillEditor.onRendered(function rendered() {
 	  };
 });
 
+Template.quillEditor.helpers({
+  atts: function addFormControlAtts() {
+    var atts = _.clone(this.atts);
+    atts = AutoForm.Utility.addClass(atts, 'editor');
+    delete atts.settings;
+    return atts;
+  }
+});
+
 Meteor.startup(function() {
 	import { Autoform } from 'meteor/aldeed:autoform';
 
