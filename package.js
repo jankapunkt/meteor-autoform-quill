@@ -23,7 +23,7 @@ Package.onUse(function (api) {
   ], 'client');
   
   api.addFiles([
-    'quill/quill.snow.css'
+    'quill/quill.snow.css',
     'quill/quill.bubble.css'
   ], 'client');
 
