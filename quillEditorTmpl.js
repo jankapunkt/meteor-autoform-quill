@@ -13,12 +13,24 @@ const Quill = require('quill');
 
 import './quillEditorTmpl.html';
 
-Template.quillEditor.onRendered(function rendered() {
-	var $input = this.data.atts.buttonClasses ? this.$('.editor') : this.$('input'); 
-	var data = this.data;                    
-	const quillEditor = new Quill('.editor', data.atts.quillOptions);
+Template.quillEditor.created = function () {
+  this.value = new ReactiveVar(this.data.value);
+};
 
-	$('.editor .ql-editor').html(this.data.value);
+Template.quillEditor.onRendered(function rendered() {
+	var self = this;
+	var options = this.data.atts.settings || {};
+	var $editor = $(this.firstNode); 
+	
+	const quillEditor = new Quill($editor, options);
+	
+	var onblur = options.onblur;
+	  options.onblur = function(e) {
+		$editor.change();
+		if (typeof onblur === 'function') {
+		  onblur.apply(this, arguments);
+		}
+	  };
 });
 
 Meteor.startup(function() {

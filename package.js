@@ -2,7 +2,7 @@ Package.describe({
   name: 'berkbadem:meteor-autoform-quill',
   git: 'https://github.com/berkbadem/meteor-autoform-quill',
   summary: 'Autoform Quill editor.',
-  version: '0.1.4'
+  version: '0.1.5'
 });
 
 Package.onUse(function (api) {
@@ -24,6 +24,7 @@ Package.onUse(function (api) {
   
   api.addFiles([
     'quill/quill.snow.css'
+    'quill/quill.bubble.css'
   ], 'client');
 
 });
