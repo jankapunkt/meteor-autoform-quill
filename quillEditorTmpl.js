@@ -20,9 +20,10 @@ Template.quillEditor.created = function () {
 Template.quillEditor.onRendered(function rendered() {
 	var self = this;
 	var options = this.data.atts.settings || {};
+	var $input = this.data.atts.buttonClasses ? this.$('.editor') : this.$('input'); 
 	var $editor = $(this.firstNode); 
 	
-	const quillEditor = new Quill($editor, options);
+	const quillEditor = new Quill(".editor", options);
 	
 	var onblur = options.onblur;
 	  options.onblur = function(e) {
