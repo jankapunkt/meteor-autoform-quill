@@ -6,25 +6,23 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  
-  api.versionsFrom('1.3.2.4');
-  api.use('aldeed:autoform@6.0.0');
+  api.versionsFrom('1.0');
   api.use([
-    'ecmascript',
-    'es5-shim',
     'templating',
+    'underscore',
     'reactive-var',
-    'blaze-html-templates'
+    'aldeed:autoform@6.0.0',
   ], ['client', 'server']);
 
   api.addFiles([
-    'quillEditorTmpl.js',
-    'quillEditorTmpl.html'
+    'lib/client/templates.html',
+    'lib/client/templates.js',
+    'lib/client/autoform-quill.js'  
   ], 'client');
   
   api.addFiles([
-    'quill/quill.snow.css',
-    'quill/quill.bubble.css'
+    'lib/client/quill/quill.snow.css',
+    'lib/client/quill/quill.bubble.css'
   ], 'client');
 
 });
