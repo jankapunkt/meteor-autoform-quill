@@ -2,7 +2,7 @@ aldeed:autoform@6.0.0
 babel-compiler@6.19.4
 babel-runtime@1.0.1
 base64@1.0.10
-berkbadem:meteor-autoform-quill@0.1.3
+berkbadem:meteor-autoform-quill@0.1.4
 blaze@2.3.2
 blaze-html-templates@1.0.4
 blaze-tools@1.0.10
