@@ -1,14 +1,14 @@
 Package.describe({
-  name: 'fauphi:autoform-quill',
-  git: 'https://github.com/Fauphi/autoform-quill',
+  name: 'berkbadem:meteor-autoform-quill',
+  git: 'https://github.com/berkbadem/meteor-autoform-quill',
   summary: 'Autoform Quill editor.',
-  version: '0.1.1'
+  version: '0.1.2'
 });
 
 Package.onUse(function (api) {
   
   api.versionsFrom('1.3.2.4');
-
+  api.use('aldeed:autoform@6.0.0');
   api.use([
     'ecmascript',
     'es5-shim',
@@ -29,5 +29,5 @@ Package.onUse(function (api) {
 });
 
 Npm.depends({
-  quill: '1.1.3'
+  quill: '1.3.0'
 });

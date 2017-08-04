@@ -3,13 +3,13 @@ Quill editor for Meteor-Autoform.
 
 ## Features
 
-* Quill editor v1.1.3 ([quilljs.com](http://quilljs.com))
+* Quill editor v1.3.0 ([quilljs.com](http://quilljs.com))
 
 ## Usage
 
 #### Install
 ```
-meteor add fauphi:meteor-autoform-quill
+meteor add berkbadem:meteor-autoform-quill
 ```
 #### Simple Schema / Autoform
 ```
