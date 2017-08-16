@@ -17,7 +17,6 @@ Package.onUse(function (api) {
   api.addFiles([
     'lib/client/template.html',
     'lib/client/template.js',
-    'lib/client/autoform-quill.js'  
   ], 'client');
   
   api.addFiles([
