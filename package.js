@@ -2,15 +2,17 @@ Package.describe({
   name: 'berkbadem:meteor-autoform-quill',
   git: 'https://github.com/berkbadem/meteor-autoform-quill',
   summary: 'Autoform Quill editor.',
-  version: '0.1.10'
+  version: '0.1.11'
 });
 
 Package.onUse(function (api) {
   api.versionsFrom('1.0');
   api.use([
+    'ecmascript',
+    'es5-shim',
     'templating',
-    'underscore',
     'reactive-var',
+    'blaze-html-templates',
     'aldeed:autoform@6.0.0',
   ], ['client', 'server']);
 
