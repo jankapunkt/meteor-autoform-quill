@@ -15,8 +15,8 @@ Package.onUse(function (api) {
   ], ['client', 'server']);
 
   api.addFiles([
-    'lib/client/template.html',
     'lib/client/template.js',
+    'lib/client/template.html',
   ], 'client');
   
   api.addFiles([
