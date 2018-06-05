@@ -2,7 +2,7 @@ Package.describe({
   name: 'berkbadem:meteor-autoform-quill',
   git: 'https://github.com/berkbadem/meteor-autoform-quill',
   summary: 'Autoform Quill editor.',
-  version: '0.1.13'
+  version: '0.1.14'
 });
 
 Package.onUse(function (api) {
