@@ -23,10 +23,10 @@ Blog.attachSchema(new SimpleSchema({
             afFieldInput: {
                 type: 'quilleditor'
             },
-          	placeholder: 'Edit me...', // optional
-          	theme: 'bubble',           // optonal, default is 'snow'
-          	modules: JSON.stringify({  // optional, stringify required, default is below
-          	    toolbar: [
+            placeholder: 'Edit me...', // optional
+            theme: 'bubble',           // optonal, default is 'snow'
+            modules: JSON.stringify({  // optional, stringify required, default is below
+                toolbar: [
                     ['bold', 'italic', 'underline', 'strike'],
                     ['blockquote', 'code-block'],
                     [{ 'header': 1 }, { 'header': 2 }],
@@ -40,7 +40,7 @@ Blog.attachSchema(new SimpleSchema({
                     [{ 'font': [] }],
                     [{ 'align': [] }],
                     ['clean']
-                 ]
+                ]
             }),
         }
     }
